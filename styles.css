@@ -1,0 +1,131 @@
+body {
+    font-family: "Noto Sans", sans-serif;
+  }
+  
+  nav {
+    background-color: #002266;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 20%;
+  }
+  
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #f2f2f2;
+    padding: 6px;
+    margin-left: -4px;
+    transition: all ease-in-out 0.2s;
+  }
+  
+  .nav-link:hover {
+    background-color: #f2f2f2;
+    color: #002266;
+    border-radius: 2px;
+  }
+  
+  nav ul li,
+  nav ul header {
+    color: #f2f2f2;
+    margin: 5px;
+    padding: 10px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #f2f2f2;
+  }
+    
+  #main-content {
+    margin-left: 20%;
+    margin-top: 25px;
+    padding-left: 8px;
+    color: #002266;
+  }
+  
+  #main-content header {
+    margin-top: 7px;
+    margin-bottom: 12px;
+  }
+  
+  #main-content header,
+  #main-content h1,
+  #main-content h2 {
+    font-weight: bold;
+  }
+  
+  .main-section {
+    margin-bottom: 35px;
+  }
+  
+  header {
+    font-size: 1.4em;
+  }
+  
+  h2 {
+    font-weight: normal; 
+    font-size: 1.2em;
+  }
+  
+  .main-section ul li p {
+    margin-top: 5px;
+  }
+  
+  code {
+    background-color: #ccddff;
+    padding: 0.5px;
+  }
+  
+  #code-block {
+    display: block;
+    width: 80%;
+    padding: 8px;
+    color: #fff;
+    border-radius: 4px;
+    background-color: black;
+  }
+  
+  .pink {
+    color: #df3079;
+  }
+  
+  #flex {
+    color: #00a67d;
+  }
+  
+  #comment {
+    color: hsla(0, 0%, 100%, .5);
+  }
+  
+  .alignment_justification img {
+    margin-left: 40px;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    * {
+  scroll-behavior: smooth;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    nav {
+      position: static;
+      width: 100%;
+      height: auto;
+      max-height: 40%;
+      overflow: scroll;
+    }
+  
+    nav ul li:last-of-type {
+      border-bottom: none;
+    }
+    
+    #main-content {
+      margin-left: 0; 
+    }
+  }
